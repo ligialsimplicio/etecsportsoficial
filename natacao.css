@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:white;
+    gap: 20px;
+}
+
+#titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#titulo p {
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#titulo img {
+   width: 90px;
+   margin-top: 25px;
+   
+}
+
+#navegacao nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#navegacao nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 4px solid transparent;
+    transition: all 0.5s ease;
+    gap: 10px;
+}
+
+#navegacao nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+.n-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    gap: 3px;
+}
+
+#redessociais nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#redessociais nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 4px solid transparent;
+    transition: all 0.5s ease;
+}
+
+#redessociais i {
+    color: black;
+}
+
+#redessocias nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+.rs-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+#contatos nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#contatos nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 4px solid transparent;
+    transition: all 0.5s ease;
+}
+
+#contatos nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+.c-link {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+main img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do elemento pai */
+    max-width: 1600 px; /* Define um tamanho máximo para a largura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section nav {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-section nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-section nav a:hover {
+    color: #f2a365;
+}
+
+.footer-section a.fa {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a.fa:hover {
+    color: #f2a365;
+}
